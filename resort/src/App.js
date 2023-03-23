@@ -10,6 +10,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
 
+
 // Navbar is on all pages, hence why it is outside of all Routes.
 // The Home, Rooms, and Single Room pages are wrapped in a Routes type as they need to be separated
 // The Error page uses an '*' to be flagged when any unknown route is encountered.
